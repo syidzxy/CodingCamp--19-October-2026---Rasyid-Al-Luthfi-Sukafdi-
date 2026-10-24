@@ -1,12 +1,12 @@
 ### Life Dashboard — To-Do List & Focus Timer
 A simple productivity dashboard to manage daily tasks, stay focused, and access your favorite websites in one place.
 
-##Overview
+## Overview
 
 Life Dashboard is a front-end web application developed as part of the CodingCamp mini project. It combines task management, a focus timer, and quick website shortcuts in a single dashboard.
 The application uses browser Local Storage to save tasks and user preferences without requiring a backend.
 
-##Features
+## Features
 
 - Personalized Greeting — Customize your name and see a greeting based on the time of day.
 - Live Date & Time — Display the current date and time.
@@ -16,7 +16,7 @@ The application uses browser Local Storage to save tasks and user preferences wi
 - Dark & Light Mode — Switch between light and dark themes.
 - Duplicate Prevention — Prevent duplicate tasks from being added.
 
-##Technologies
+## Technologies
 
 - HTML5
 - CSS3
@@ -24,7 +24,7 @@ The application uses browser Local Storage to save tasks and user preferences wi
 - Browser Local Storage
 - GitHub Pages
 
-##Project Structure
+## Project Structure
 
 .
 ├── .kiro/
@@ -35,7 +35,7 @@ The application uses browser Local Storage to save tasks and user preferences wi
 ├── index.html
 └── README.md
 
-##Getting Started
+## Getting Started
 To run the project locally:
 
 1. Clone the repository.
@@ -46,7 +46,7 @@ git clone https://github.com/syidzxy/CodingCamp--19-October-2026---Rasyid-Al-Lut
 
 No additional dependencies or backend setup are required.
 
-##Live Demo
+## Live Demo
 Visit the deployed website.
 
 <p align="center">
