@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Life Dashboard</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+
+    <!-- ─────────────────────────────────────────
+         HEADER — Greeting, date, time, name input
+    ───────────────────────────────────────────── -->
+    <header id="greeting-section">
+      <p id="greeting-text">Good morning, <span id="user-name">Friend</span>!</p>
+      <p id="datetime-display"></p>
+
+      <!-- Challenge: Custom name input (wired up in JS later) -->
+      <div id="name-form">
+        <input
+          type="text"
+          id="name-input"
+          placeholder="Enter your name"
+          aria-label="Enter your name"
+        />
+        <button id="name-save-btn">Save</button>
+      </div>
+
+      <!-- Challenge: Light / Dark mode toggle -->
+      <button id="theme-toggle-btn" aria-label="Toggle light/dark mode">
+        🌙 Dark Mode
+      </button>
+    </header>
+
+    <!-- ─────────────────────────────────────────
+         MAIN CONTENT — three-column layout
+    ───────────────────────────────────────────── -->
+    <main id="dashboard">
+
+      <!-- ── SECTION 1: Focus Timer ────────────── -->
+      <section id="timer-section" aria-labelledby="timer-heading">
+        <h2 id="timer-heading">Focus Timer</h2>
+
+        <div id="timer-display" aria-live="polite">25:00</div>
+
+        <div id="timer-controls">
+          <button id="timer-start-btn">▶ Start</button>
+          <button id="timer-stop-btn">⏸ Stop</button>
+          <button id="timer-reset-btn">↺ Reset</button>
+        </div>
+      </section>
+
+      <!-- ── SECTION 2: To-Do List ──────────────── -->
+      <section id="todo-section" aria-labelledby="todo-heading">
+        <h2 id="todo-heading">To-Do List</h2>
+
+        <!-- Add task form -->
+        <form id="todo-form" novalidate>
+          <input
+            type="text"
+            id="todo-input"
+            placeholder="Add a new task…"
+            aria-label="New task"
+          />
+          <button type="submit" id="todo-add-btn">Add</button>
+        </form>
+
+        <!-- Task list rendered by JS -->
+        <ul id="todo-list" aria-label="Task list"></ul>
+      </section>
+
+      <!-- ── SECTION 3: Quick Links ─────────────── -->
+      <section id="links-section" aria-labelledby="links-heading">
+        <h2 id="links-heading">Quick Links</h2>
+
+        <!-- Add link form -->
+        <form id="link-form" novalidate>
+          <input
+            type="text"
+            id="link-name-input"
+            placeholder="Site name"
+            aria-label="Site name"
+          />
+          <input
+            type="url"
+            id="link-url-input"
+            placeholder="https://example.com"
+            aria-label="Site URL"
+          />
+          <button type="submit" id="link-add-btn">Add Link</button>
+        </form>
+
+        <!-- Link list rendered by JS -->
+        <ul id="link-list" aria-label="Quick links"></ul>
+      </section>
+
+    </main>
+
+    <!-- ─────────────────────────────────────────
+         FOOTER
+    ───────────────────────────────────────────── -->
+    <footer id="site-footer">
+      <p>Built by <span id="footer-name">Rasyid Al Luthfi</span> &mdash; CodingCamp 2026</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
