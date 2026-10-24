@@ -1,4 +1,4 @@
-### Life Dashboard — To-Do List & Focus Timer
+# Life Dashboard — To-Do List & Focus Timer
 A simple productivity dashboard to manage daily tasks, stay focused, and access your favorite websites in one place.
 
 ## Overview
