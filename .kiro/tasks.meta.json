@@ -1,0 +1,89 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1. Create the HTML structure (index.html)": [
+      {
+        "executionId": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+        "chatSessionId": "sess_codingcamp_dashboard_2026",
+        "timestamp": 1761292800000
+      }
+    ],
+    "2. Implement styling (css/style.css)": [
+      {
+        "executionId": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+        "chatSessionId": "sess_codingcamp_dashboard_2026",
+        "timestamp": 1761292900000
+      }
+    ],
+    "3.1 DOM references and LocalStorage key constants": [
+      {
+        "executionId": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+        "chatSessionId": "sess_codingcamp_dashboard_2026",
+        "timestamp": 1761293000000
+      }
+    ],
+    "3.2 Utility helpers": [
+      {
+        "executionId": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+        "chatSessionId": "sess_codingcamp_dashboard_2026",
+        "timestamp": 1761293000000
+      }
+    ],
+    "3.3 Greeting, date, and time": [
+      {
+        "executionId": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+        "chatSessionId": "sess_codingcamp_dashboard_2026",
+        "timestamp": 1761293000000
+      }
+    ],
+    "3.4 Custom name": [
+      {
+        "executionId": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+        "chatSessionId": "sess_codingcamp_dashboard_2026",
+        "timestamp": 1761293000000
+      }
+    ],
+    "3.5 Dark mode": [
+      {
+        "executionId": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+        "chatSessionId": "sess_codingcamp_dashboard_2026",
+        "timestamp": 1761293000000
+      }
+    ],
+    "3.6 Focus timer": [
+      {
+        "executionId": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+        "chatSessionId": "sess_codingcamp_dashboard_2026",
+        "timestamp": 1761293000000
+      }
+    ],
+    "3.7 To-Do List — data layer": [
+      {
+        "executionId": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+        "chatSessionId": "sess_codingcamp_dashboard_2026",
+        "timestamp": 1761293000000
+      }
+    ],
+    "3.8 To-Do List — DOM layer": [
+      {
+        "executionId": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+        "chatSessionId": "sess_codingcamp_dashboard_2026",
+        "timestamp": 1761293000000
+      }
+    ],
+    "3.9 Quick Links": [
+      {
+        "executionId": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+        "chatSessionId": "sess_codingcamp_dashboard_2026",
+        "timestamp": 1761293000000
+      }
+    ],
+    "3.10 Initialisation": [
+      {
+        "executionId": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+        "chatSessionId": "sess_codingcamp_dashboard_2026",
+        "timestamp": 1761293000000
+      }
+    ]
+  }
+}
